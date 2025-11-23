@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+header {
+    background-color: #252526;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 2px solid #444;
+    flex-wrap: wrap;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h1 {
+    color: #ffcc66;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+}
+.search-box input {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 200px;
+}
+.search-box button {
+    background-color: #ffcc66;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.search-box button:hover {
+    background-color: #ffb84d;
+}
+.user-buttons {
+    display: flex;
+    gap: 10px;
+}
+.user-buttons .btn {
+    text-decoration: none;
+    color: black;
+    background-color: #ffcc66;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.user-buttons .btn:hover {
+    background-color: #ffb84d;
+}
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1461988091159-192b6df7054f?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+.banner h2 {
+    color: #ffcc66;
+}
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav a {
+    color: #f5f5f5;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #555;
+    color: #ffcc66;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+article {
+    background-color: #252526;
+    width: 280px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+article:hover {
+    transform: scale(1.05);
+}
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+article h3 {
+    color: #ffdd99;
+}
+
+/* THỰC ĐƠN */
+#menu {
+    text-align: center;
+    padding: 30px;
+}
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-item {
+    background-color: #252526;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+#order {
+    text-align: center;
+    padding: 40px;
+}
+.order-form {
+    background-color: #252526;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.order-form input, .order-form select, .order-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.order-form button {
+    width: 100%;
+    background-color: #ffcc66;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.order-form button:hover {
+    background-color: #ffb84d;
+}
+footer {
+    background-color: #252526;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #444;
+}
